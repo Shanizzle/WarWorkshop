@@ -1,0 +1,44 @@
+
+
+cmd+K  - clear
+
+pwd					- current folder path
+
+cd 					- change directory 
+
+cd ~/ 				- home directory
+
+mkdir [name]		- create a folder
+
+ls 			- list
+
+which git
+
+-------------------------------------------------
+
+vim [filename]  - just ask Kenenth
+dd				- delete line
+i 				- insert mode
+esc 			- exit insert mode (or any mode)
+:x				- save and exit (takes you back to terminal prompt)
+:q				- quit unsaved changes
+
+-------------------------------------------------
+
+git init
+git status
+
+git add -A  							- add all untracked files (except files in .gitignore)
+git rm --cached [filename]				- removes a file from git (but doesn't delete file from folder)
+git add -u 								- add unstagged files 							
+git commit -am "some message"			- commits to local git branch
+git remote add origin [url to repo]		- add alias for git url repo
+git push -u origin master				- push files to git server
+
+git clone [url]
+
+git config --global --edit
+git config --edit
+
+git  config --global user.name [github username]
+git config --global user.email
